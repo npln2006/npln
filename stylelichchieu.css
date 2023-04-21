@@ -1,0 +1,18 @@
+header {
+	text-align: center;
+}
+header > h1 {
+	display: inline-block;
+	font-size: 1.2cm;
+	font-weight: bold;
+	border-radius: 1cm;
+	background-color: black;
+	color: red;
+	padding: 0.3cm 0.6cm;
+	border: 2px solid #fffa;
+}
+h3 {
+	color: black;
+	text-align: center;
+}
+

@@ -1,0 +1,59 @@
+table {
+	border-collapse: collapse;
+	color: white;
+	font-size:10pt;	
+}
+p > img {
+	width: 2cm;
+	height: 2cm;
+	border-radius: 100%;
+	border: 2px solid #fff;
+	box-shadow: red 0px 2px 8px 0px;
+}
+h1 {
+	display: inline-block;
+	font-size: 10pt;
+	font-weight: bold;
+	border-radius: 1cm;
+	background-color: black;
+	color: red;
+	padding: 0.3cm 0.6cm;
+	border: 2px solid #fffa;
+}
+header {
+	text-align: center;
+}
+header > h1 {
+	display: inline-block;
+	font-size: 1.2cm;
+	font-weight: bold;
+	border-radius: 1cm;
+	background-color: black;
+	color: red;
+	padding: 0.3cm 0.6cm;
+	border: 2px solid #fffa;
+}
+ul {
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0 autu;
+	padding: 0cm;
+}
+ul > li {
+	background-color: black;
+	border-radius: 1cm;
+	padding: 0,5;
+	margin: 1cm 0;
+	display: flex;
+	display: inline-block;
+}
+ul > li > a {
+	display: flex;
+	flex-direction: row;
+	gap: 0cm;
+}
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}

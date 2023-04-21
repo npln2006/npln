@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="styletrangchu.css">
+</head>
+<body>
+<header>
+	<h1> NPLNGUYEN CINEMA</h1>
+</header>
+<h3> Đang Chiếu <h3>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <a href="ktrack.html"></a><img src="https://moveek.com/storage/media/cache/short/63f6ec2b17bec366639832.jpg" style="width:30%">
+    <div class="text">Anh Em Mario<div>24/03</div></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <a href="ktrack.html"></a><img src="https://moveek.com/storage/media/cache/short/6436590888602953856972.jpeg" style="width:30%">
+    <div class="text">Mặt Nạ Quỷ<div>14/04</div></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <a href="ktrack.html"></a><img src="https://moveek.com/storage/media/cache/short/643657bb3c589692510296.jpeg" style="width:30%">
+    <div class="text">Tình Chị Duyên Em<div>07/04</div></div>
+  </div>
+  <div>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</div>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000);
+}
+</script>
+<h3> Các Bài Báo Review Phim </h3>
+<hr>
+<!-- Các bài review phim -->
+<table>
+<tr>
+	<th><img src="https://cdn.moveek.com/storage/media/cache/small/643661ca398a5396006661.jpeg"> </th>
+	<th><a href="https://moveek.com/bai-viet/review-anh-em-super-mario-the-super-mario-bros-movie/31812">Review Anh Em Mario(The Super Mario Bros. Movie) Nguồn:Moveek </a>
+	<br> Anh Em Super Mario (The Super Mario Bros. Movie) là một bộ phim hoạt hình ngập tràn tính giải trí.</br></th>
+</tr>
+</table>
+<hr>
+<table>
+<tr>
+	<th><img src="https://cdn.moveek.com/storage/media/cache/small/643abe61e9079244289886.jpg"></th>
+	<th><a href="https://moveek.com/bai-viet/review-mat-na-quy-the-ghost-within/31861">Review Mặt Nạ Quỷ (The Ghost Within) Nguồn:Moveek</a>
+	<br>Mặt Nạ Quỷ có thể hù dọa những người yếu vía, nhưng với fan thực sự của thể loại kinh dị thì chẳng mấy “xi nhê”.</br></th>
+</tr>
+</table>
+<hr>
+<table>
+<tr>
+	<th><img src="https://cdn.moveek.com/storage/media/cache/small/64366201c4c33556616997.jpeg"></th>
+	<th><a href="https://moveek.com/bai-viet/review-tinh-chi-duyen-em-you-me-me/31795">Review Tình Chị Duyên Em (You & Me & Me) Nguồn:Moveek</a>
+	<br>Tình Chị Duyên Em (You & Me & Me) - Tình yêu không có lỗi, lỗi tại sinh đôi.</br></th>
+</tr>
+</table>
+<hr>
+<h3>Các Bài Báo Khác</h3>
+<hr> 
+<table> 
+<tr> 
+	<th><img src="https://cdn.moveek.com/storage/media/cache/small/6407eeb7c1e11203139839.jpg"></th>
+	<th><a href="https://moveek.com/bai-viet/lich-su-va-van-hoa-nhat-duoc-long-ghep-trong-thanh-guom-diet-quy/31676">Lịch sử và văn hóa Nhật được lồng ghép trong Thanh Gươm Diệt Quỷ</a>
+	<br>Bom tấn anime Thanh Gươm Diệt Quỷ: Đường Đến Làng Thợ Rèn chính thức đổ bộ phòng vé vào tháng 3.</br></th>
+</tr>
+</table>
+<hr>
+<table>
+<tr> 
+	<th> <img src="https://cdn.moveek.com/storage/media/cache/small/640fcc11e7a4d243664420.jpg"></img></th>
+	<th><a href="https://moveek.com/bai-viet/all-quiet-on-the-western-front-netflix-no-luc-khiem-khuyet-xung-dang-oscar/31701">All Quiet on the Western Frontn(Netflix) - Nỗ lực khiếm khuyết xứng đáng Oscar Nguồn: Moveek</a>
+	<br>All Quiet on the Western đạt được 4 giải Oscar và xứng đáng với từng tượng vàng ấy, nhưng một khiếm khuyết khiến phim không thể thắng Phim hay nhất.</br></th>
+</tr>
+</table>
+<hr>
+<!--footer website -->
+<div class="movie" style="background-color:brown">
+<p><img src="anh.jpg" style="margin-top:10px" width="120px" height="120px"style="margin-left:10px"  ></p>
+<h1 style="color:red"> NPLNGUYEN CINEMA </h1>
+<ul>
+	<li>
+		<a href="https://mail.google.com/mail/u/0/?pli=1#inbox"> <img src="gmail.png" style="width: 30px; height: 30px;">Email</a>
+	</li>
+	<li>
+		<a href="https://www.facebook.com/profile.php?id=100065276834415"> <img src="facebook.png" style="width: 30px; height: 30px;">Facebook</a>
+	</li>
+	<li>
+	<a>  <img src="tell.png" style="width: 30px; height: 30px;">Tel:0343020560</a>
+	</li>
+</ul>
+</body>
+</html>
